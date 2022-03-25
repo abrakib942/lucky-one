@@ -1,0 +1,72 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-s76hh-a654hdl76",
+    "name": "Apple Macbook Pro",
+    "seller": "StarTech",
+    "price": 265000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/macbook-pro-16-inch-01-500x500.jpg"
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "name": "Asus ROG Strix G15",
+    "seller": "StarTech",
+    "price": 115000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/rog-strix-g15-g513ie/rog-strix-g15-g513ie-01-500x500.jpg"
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "name": "Asus TUF A15",
+    "seller": "StarTech",
+    "price": 100000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/fa506ic/fa506ic-01-500x500.jpg"
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "name": "Asus Vivobook 15",
+    "seller": "StarTech",
+    "price": 98000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15/vivobook-15-030-500x500.jpg"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "name": "HP 15s-fq2644TU",
+    "seller": "StarTech",
+    "price": 55000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-fq2644tu/15s-fq2644tu-01-500x500.jpg"
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "name": "Dell Inspiron 15 3511",
+    "seller": "StarTech",
+    "price": 92000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-3511/inspiron-15-3511-07-500x500.jpg"
+  },
+  {
+    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "name": "Lenovo IdeaPad 3",
+    "seller": "StarTech",
+    "price": 63500,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-3/ideapad-3-01102-500x500.jpg"
+  },
+  {
+    "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+    "name": "Asus ExpertBook B3",
+    "seller": "StarTech",
+    "price": 92000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/expertbook-b3-flip/expertbook-b3-flip-01-500x500.jpg"
+  },
+  {
+    "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+    "name": "HP ENVY x360 ",
+    "seller": "StarTech",
+    "price": 97500,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/envy-x360-convert-13-ay1678au/envy-x360-convert-13-ay1678au-01-500x500.jpg"
+  },
+  {
+    "id": "ac44095f-230e-4502-8816-dea3eaae8320",
+    "name": "Apple MacBook Air",
+    "seller": "StarTech",
+    "price": 99000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/macbook-air-gold/macbook-air-gold-500x500.jpg"
+  }
+]
