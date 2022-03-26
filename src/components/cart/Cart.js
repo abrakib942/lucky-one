@@ -3,12 +3,7 @@ import "./Cart.css";
 
 const Cart = (props) => {
   const { cart } = props;
-
-  // // let name = [];
-
-  // /* for (const product of cart) {
-  //   // name = name + product.name;
-  // } */
+  const { chooseOne, chooseAgain } = props;
 
   return (
     <div className="cart">
@@ -17,8 +12,18 @@ const Cart = (props) => {
         <li key={product.id}>{product.name}</li>
       ))}
 
-      <button className="btn btn-outline-success my-3">Choose 1 For Me</button>
-      <button className="btn btn-outline-danger mb-2">Choose Again</button>
+      <button
+        onClick={() => chooseOne()}
+        className="btn btn-outline-success my-3"
+      >
+        Choose 1 For Me
+      </button>
+      <button
+        onClick={() => chooseAgain()}
+        className="btn btn-outline-danger mb-2"
+      >
+        Choose Again
+      </button>
     </div>
   );
 };
