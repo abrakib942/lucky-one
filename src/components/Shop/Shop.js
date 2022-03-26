@@ -13,15 +13,17 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
-  const btnClick = (product) => {
+  const btnClick = (selectedProduct) => {
     let newCart = [];
-    // const newCart = [...cart, product];
 
-    if (cart.length < 4) {
-      newCart = [...cart, product];
+    const exists = cart.find((product) => product.id === selectedProduct.id);
+
+    if (cart.length < 4 && !exists) {
+      newCart = [...cart, selectedProduct];
     } else {
       newCart = [...cart];
     }
+
     setCart(newCart);
   };
 
