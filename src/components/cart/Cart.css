@@ -1,0 +1,14 @@
+.cart {
+  border: 1px solid lightgray;
+  background-color: rgb(180, 177, 177);
+  border-radius: 6px;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 576px) {
+  .cart h4 {
+    font-size: 1em;
+  }
+}

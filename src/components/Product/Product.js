@@ -15,12 +15,17 @@ const Product = (props) => {
           <small>Id: {id}</small>
         </p>
         <h4>
-          ৳<span className="text-danger">{price}</span>
+          ৳ <span className="text-danger">{price}</span>
         </h4>
       </div>
 
       <div className="btnIcon mt-4">
-        <button className="btn btn-link btn-cart">Add to Cart</button>
+        <button
+          onClick={() => props.btnClick(props.product)}
+          className="btn btn-link btn-cart"
+        >
+          Add to Cart
+        </button>
 
         <FontAwesomeIcon
           className="text-primary"

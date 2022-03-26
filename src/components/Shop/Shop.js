@@ -13,6 +13,18 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
+  const btnClick = (product) => {
+    let newCart = [];
+    // const newCart = [...cart, product];
+
+    if (cart.length < 4) {
+      newCart = [...cart, product];
+    } else {
+      newCart = [...cart];
+    }
+    setCart(newCart);
+  };
+
   return (
     <div>
       <h1 className="text">Buy Your Favourite Laptop</h1>
@@ -20,7 +32,11 @@ const Shop = () => {
       <div className="shop-container">
         <div className="product-container">
           {products.map((product) => (
-            <Product key={product.id} product={product}></Product>
+            <Product
+              key={product.id}
+              product={product}
+              btnClick={btnClick}
+            ></Product>
           ))}
         </div>
 
